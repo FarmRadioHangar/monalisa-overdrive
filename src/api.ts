@@ -122,8 +122,8 @@ export namespace Api {
   }
 
   /**
-   * Perform a sequence of progressive requests to the VOTO API `endpoint` by
-   * following the nextURL parameter in each response, and pass response in 
+   * Perform a sequence of progressive requests to the VOTO API uri `endpoint` 
+   * by following the nextURL parameter in each response, and pass response in 
    * chunks of size no larger than `chunkSize` to the provided callback.
    *
    * @param endpoint  VOTO endpoint uri
