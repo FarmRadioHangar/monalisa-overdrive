@@ -13,7 +13,7 @@ export namespace Api {
   export interface Response {
 
     /**
-     * Response object with status, headers and data.
+     * Complete response object with status, headers and data.
      *
      * @see {@link https://nodejs.org/api/http.html#http_class_http_incomingmessage}
      */
