@@ -14,4 +14,4 @@ cd client
 npm start
 ```
 
-Access the application from `http://localhost:8081`.
+Access the application from <http://localhost:8081>.
