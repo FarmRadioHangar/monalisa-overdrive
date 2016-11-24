@@ -22,14 +22,14 @@ wss.on('connection', (ws): void => {
     const message: Message = parse(json);
     switch (message.type) {
       case 'get-campaigns':
-        Api.stream('trees', (body: any) => {
+        Api.stream('trees', (res: Api.Response) => {
           ws.send(JSON.stringify({
             type: 'trees',
             data: {
-              trees: body.data.trees
+              trees: res.body.data.trees
             }
-          }));
-        });
+          })); 
+        }, 20);  // chunk size
         break;
       case 'invalid':
         console.error('Invalid WebSocket message received.');
