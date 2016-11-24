@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+./node_modules/typedoc/bin/typedoc --out ./docs/ index.ts --media ./media/

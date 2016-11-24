@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+./node_modules/nodemon/bin/nodemon.js --exec ./node_modules/.bin/ts-babel-node -- ./index.ts
