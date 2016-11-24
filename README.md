@@ -7,10 +7,11 @@ To run messaging server:
 npm run build:live
 ```
 
-To start client app:
+To build and start client app:
 
 ```
 cd client
+webpack
 npm start
 ```
 
